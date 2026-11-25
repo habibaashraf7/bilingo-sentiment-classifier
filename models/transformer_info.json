@@ -1,0 +1,26 @@
+{
+  "base_model": "xlm-roberta-base",
+  "max_len": 192,
+  "epochs": 3,
+  "lr": 2e-05,
+  "batch_size": 16,
+  "train_minutes": 22.9,
+  "best_val_macro_f1": 0.706560619387512,
+  "val_by_epoch": [
+    {
+      "epoch": 1.0,
+      "macro_f1": 0.6801370134677015,
+      "loss": 0.6819348931312561
+    },
+    {
+      "epoch": 2.0,
+      "macro_f1": 0.7056783777206189,
+      "loss": 0.6464844942092896
+    },
+    {
+      "epoch": 3.0,
+      "macro_f1": 0.706560619387512,
+      "loss": 0.693376898765564
+    }
+  ]
+}

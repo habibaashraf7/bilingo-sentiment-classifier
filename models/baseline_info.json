@@ -1,0 +1,4 @@
+{
+  "model": "Logistic regression C=1",
+  "val_macro_f1": 0.6567656452282863
+}

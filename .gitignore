@@ -1,0 +1,10 @@
+# data comes from Hugging Face (see README)
+data/raw/
+data/processed/
+# fine-tuned transformer weights (~1.1 GB), re-create with python -m src.transformer
+models/xlmr-sentiment/
+models/_checkpoints/
+models/train_log.txt
+__pycache__/
+.ipynb_checkpoints/
+.venv/
